@@ -1,0 +1,89 @@
+body {
+    min-width: 800px;
+    
+    background-size: cover;
+    margin:0px;
+  }
+  #trapezoid {
+   
+    height: 0;
+    border: 80px solid rgba(0,0,0,0);
+    border-top: 0 solid;
+    border-bottom: 150px solid rgba(1, 1, 1, 0.371);
+    -webkit-border-radius: 20px 20px 0 0;
+    border-radius: 20px 20px 0 0;
+    
+    color: rgb(0, 0, 0);
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    -webkit-transform: rotateX(180deg);
+    transform: rotateX(180deg);
+    margin-top:0px;
+    width: 1000px;
+    position: relative;
+    transition: all 0.7s ease;
+    padding-top: 30px;
+    z-index: 10;
+    
+   
+  }
+  
+  #trapezoid a, .subnavbtn, i, img {
+   -webkit-transform: rotateX(180deg);
+    transform: rotateX(180deg);
+  }
+  
+  .navbarR {
+    position: sticky;
+    top: 0;
+    display:flex;
+    overflow:hidden;
+    justify-content: center;
+    height: 100px;
+    z-index: 10;
+    align-items: center;
+    padding-bottom: 40px;
+    transition: padding 0.2s linear;
+  }
+  
+  .navbarR a {
+    
+    font-size: 16px;
+    color: rgb(182, 182, 182);
+    text-align: center;
+    padding: 14px 25px;
+    text-decoration: none;
+    
+    transition: all 0.5s ease;
+  }
+  
+
+  
+  .navbarR a:hover {
+    background:#be1f24;
+    color: white;
+    border-radius:5px;
+  }
+  
+
+
+  .container-fluid, .container{
+    min-height: 120vh;
+    background-image: url("http://www.iingen.unam.mx/es-mx/Paginas/Splash/img/auditorio.JPG");
+    background-size: cover;
+  }
+  i{
+    font-size: 20px;
+  }
+  .txt-btn{
+    display: block;
+    font-family:'Lucida Sans';
+    font-size: 12px;
+    margin: 10px auto;
+    transition: visibility 0s, opacity 0.5s linear, margin 0.2s ease-in;
+    visibility: visible;
+    opacity: 1;
+  }
+  .unam{
+    margin-left: 25px;
+  }
